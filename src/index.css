@@ -37,7 +37,9 @@ h1 {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  height: 5vh;
 }
 
 button {
@@ -74,10 +76,11 @@ button:focus-visible {
 }
 .App {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100vh;
+  height: 95vh;
 }
 .light {
   background-color: white;
